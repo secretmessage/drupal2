@@ -32,9 +32,11 @@ update.php
 xmlrpc.php
 /includes
 /misc
-/modules
+#/modules
 /profiles
 /scripts
 /themes
 
 node_modules/
+.idea/inspectionProfiles/
+vendor/
