@@ -7,18 +7,10 @@
 
 use Drupal\Core\Routing\RouteMatchInterface;
 
-/**
- * Implements hook_help().
- */
-function qbpl_volunteer_help($route_name, RouteMatchInterface $route_match) {
-  switch ($route_name) {
-    // Main module help for the qbpl_volunteer module.
-    case 'help.page.qbpl_volunteer':
-      $output = '';
-      $output .= '<h3>' . t('About') . '</h3>';
-      $output .= '<p>' . t('Volunteer with Queens Library') . '</p>';
-      return $output;
+use Drupal\qbpl_volunteer\Controller;
 
-    default:
-  }
+function qbpl_branch_theme($existing, $type, $theme, $path) {
+  return array(
+    'qbpl_volunteer' => array(),
+  );
 }
