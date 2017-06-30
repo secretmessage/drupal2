@@ -9,8 +9,12 @@ use Drupal\Core\Routing\RouteMatchInterface;
 
 use Drupal\qbpl_volunteer\Controller;
 
-function qbpl_branch_theme($existing, $type, $theme, $path) {
+function qbpl_volunteer_theme($existing, $type, $theme, $path) {
   return array(
-    'qbpl_volunteer' => array(),
+    'qbpl_volunteer' => array(
+      'variables' => array(
+        'apple' => NULL,
+     ),
+    ),
   );
 }

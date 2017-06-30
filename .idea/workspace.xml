@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2502c884-7e1b-4155-98cb-9a4f783e00e8" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/custom/qbpl_volunteer/templates/pbpl-volunteer.html.twig" afterPath="$PROJECT_DIR$/modules/custom/qbpl_volunteer/templates/qbpl-volunteer.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/custom/qbpl_volunteer/qbpl_volunteer.module" afterPath="$PROJECT_DIR$/modules/custom/qbpl_volunteer/qbpl_volunteer.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/custom/qbpl_volunteer/src/Controller/VolunteerController.php" afterPath="$PROJECT_DIR$/modules/custom/qbpl_volunteer/src/Controller/VolunteerController.php" />
-    </list>
+    <list default="true" id="2502c884-7e1b-4155-98cb-9a4f783e00e8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -258,12 +253,12 @@
       <updated>1498754010291</updated>
       <workItem from="1498754011626" duration="757000" />
       <workItem from="1498755330471" duration="5349000" />
-      <workItem from="1498765462660" duration="4498000" />
+      <workItem from="1498765462660" duration="4651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10604000" />
+    <option name="totallyTimeSpent" value="10757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
