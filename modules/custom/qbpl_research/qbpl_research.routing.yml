@@ -1,0 +1,33 @@
+
+# In order to to create pages it is necessary to define routes for them.
+# A route maps a URL path to a controller. It defines what function
+# or method will be called when a URL is accessed.
+# If the user accesses http://drupal8.dev//qbpl_research/hello/{name}, the routing
+# system will look for a route with that path. In this case it will find a
+# match, and execute the _controller callback. In this case the callback is
+# defined as a classname
+# ("\Drupal\qbpl_research\Controller\DefaultController")
+# and a method ("hello").
+qbpl_research.default_controller_hello:
+  path: '/qbpl_research/hello/{name}'
+  defaults:
+    _controller: '\Drupal\qbpl_research\Controller\DefaultController::hello'
+    _title: 'getIndex'
+  requirements:
+    _permission: 'access content'
+# In order to to create pages it is necessary to define routes for them.
+# A route maps a URL path to a controller. It defines what function
+# or method will be called when a URL is accessed.
+# If the user accesses http://drupal8.dev//qbpl_research/goodbye/{name}, the routing
+# system will look for a route with that path. In this case it will find a
+# match, and execute the _controller callback. In this case the callback is
+# defined as a classname
+# ("\Drupal\qbpl_research\Controller\DefaultController")
+# and a method ("goodbye").
+qbpl_research.default_controller_goodbye:
+  path: '/qbpl_research/goodbye/{name}'
+  defaults:
+    _controller: '\Drupal\qbpl_research\Controller\DefaultController::goodbye'
+    _title: 'sayGoodbye'
+  requirements:
+    _permission: 'access content'

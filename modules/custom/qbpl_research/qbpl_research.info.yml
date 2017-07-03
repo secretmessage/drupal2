@@ -1,0 +1,5 @@
+name: qbpl_research
+type: module
+description: this module shall house everything related to {{baseurl}}/research
+core: 8.x
+package: Custom

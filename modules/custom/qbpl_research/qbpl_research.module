@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains qbpl_research.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function qbpl_research_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the qbpl_research module.
+    case 'help.page.qbpl_research':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('this module shall house everything related to {{baseurl}}/research') . '</p>';
+      return $output;
+
+    default:
+  }
+}

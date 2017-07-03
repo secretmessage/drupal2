@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains qbpl_aboutus.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function qbpl_aboutus_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the qbpl_aboutus module.
+    case 'help.page.qbpl_aboutus':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This module will house the about us module') . '</p>';
+      return $output;
+
+    default:
+  }
+}

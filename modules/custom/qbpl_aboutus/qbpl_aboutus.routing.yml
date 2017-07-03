@@ -1,0 +1,97 @@
+
+# In order to to create pages it is necessary to define routes for them.
+# A route maps a URL path to a controller. It defines what function
+# or method will be called when a URL is accessed.
+# If the user accesses http://drupal8.dev//aboutus/services/, the routing
+# system will look for a route with that path. In this case it will find a
+# match, and execute the _controller callback. In this case the callback is
+# defined as a classname
+# ("\Drupal\qbpl_aboutus\Controller\ServicesController")
+# and a method ("getIndex").
+qbpl_aboutus.services_controller_getIndex:
+  path: '/aboutus/services/'
+  defaults:
+    _controller: '\Drupal\qbpl_aboutus\Controller\ServicesController::getIndex'
+    _title: 'servicesIndex'
+  requirements:
+    _permission: 'access content'
+# In order to to create pages it is necessary to define routes for them.
+# A route maps a URL path to a controller. It defines what function
+# or method will be called when a URL is accessed.
+# If the user accesses http://drupal8.dev//aboutus/services/circulation, the routing
+# system will look for a route with that path. In this case it will find a
+# match, and execute the _controller callback. In this case the callback is
+# defined as a classname
+# ("\Drupal\qbpl_aboutus\Controller\ServicesController")
+# and a method ("getCirculation").
+qbpl_aboutus.services_controller_getCirculation:
+  path: '/aboutus/services/circulation'
+  defaults:
+    _controller: '\Drupal\qbpl_aboutus\Controller\ServicesController::getCirculation'
+    _title: 'servicesCirculation'
+  requirements:
+    _permission: 'access content'
+# In order to to create pages it is necessary to define routes for them.
+# A route maps a URL path to a controller. It defines what function
+# or method will be called when a URL is accessed.
+# If the user accesses http://drupal8.dev//aboutus/services/computers, the routing
+# system will look for a route with that path. In this case it will find a
+# match, and execute the _controller callback. In this case the callback is
+# defined as a classname
+# ("\Drupal\qbpl_aboutus\Controller\ServicesController")
+# and a method ("getComputers").
+qbpl_aboutus.services_controller_getComputers:
+  path: '/aboutus/services/computers'
+  defaults:
+    _controller: '\Drupal\qbpl_aboutus\Controller\ServicesController::getComputers'
+    _title: 'servicesComputers'
+  requirements:
+    _permission: 'access content'
+# In order to to create pages it is necessary to define routes for them.
+# A route maps a URL path to a controller. It defines what function
+# or method will be called when a URL is accessed.
+# If the user accesses http://drupal8.dev//aboutus/services/partnership[D[D[D[D[D[D[D[D[D[D[Dforeignpartnership, the routing
+# system will look for a route with that path. In this case it will find a
+# match, and execute the _controller callback. In this case the callback is
+# defined as a classname
+# ("\Drupal\qbpl_aboutus\Controller\ServicesController")
+# and a method ("getTabletHotspot").
+qbpl_aboutus.services_controller_getTabletHotspot:
+  path: '/aboutus/services/partnership[D[D[D[D[D[D[D[D[D[D[Dforeignpartnership'
+  defaults:
+    _controller: '\Drupal\qbpl_aboutus\Controller\ServicesController::getTabletHotspot'
+    _title: 'servicesTabletHotspot'
+  requirements:
+    _permission: 'access content'
+# In order to to create pages it is necessary to define routes for them.
+# A route maps a URL path to a controller. It defines what function
+# or method will be called when a URL is accessed.
+# If the user accesses http://drupal8.dev//aboutus/services/foreignpartnership, the routing
+# system will look for a route with that path. In this case it will find a
+# match, and execute the _controller callback. In this case the callback is
+# defined as a classname
+# ("\Drupal\qbpl_aboutus\Controller\ServicesController")
+# and a method ("getForeignPartnership").
+qbpl_aboutus.services_controller_getForeignPartnership:
+  path: '/aboutus/services/foreignpartnership'
+  defaults:
+    _controller: '\Drupal\qbpl_aboutus\Controller\ServicesController::getForeignPartnership'
+    _title: 'servicesForeignPartnership'
+  requirements:
+    _permission: 'access content'
+# In order to to create pages it is necessary to define routes for them.
+# A route maps a URL path to a controller. It defines what function
+# or method will be called when a URL is accessed.
+# If the user accesses http://drupal8.dev//aboutus/services/selfpublishing, the routing
+# system will look for a route with that path. In this case it will find a
+# match, and execute the _controller callback. In this case the callback is
+# defined as a classname
+# ("\Drupal\qbpl_aboutus\Controller\ServicesController")
+# and a method ("getSelfPublishing").
+qbpl_aboutus.services_controller_getSelfPublishing:
+  path: '/aboutus/services/selfpublishing'
+  defaults:
+    _controller: '\Drupal\qbpl_aboutus\Controller\ServicesController::getSelfPublishing'
+    _title: 'servicesSelfPublishing'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,5 @@
+name: qbpl_aboutus
+type: module
+description: This module will house the about us module
+core: 8.x
+package: Custom
