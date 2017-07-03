@@ -19,7 +19,8 @@ class DefaultController extends ControllerBase {
   public function getAboutMePage() {
     return [
       '#theme' => 'newyork1_aboutus',
-      '#title' => 'About Us'
+      '#title' => 'About Us',
+      '#orgName' => 'New York One',
     ];
   }
 

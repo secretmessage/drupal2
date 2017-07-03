@@ -16,6 +16,7 @@ function newyork1_aboutus_theme($existing, $type, $theme, $path) {
     'newyork1_aboutus' => array(
       'variables' => array(
         'apple' => NULL,
+        'orgName' => NULL,
      ),
     ),
   );
