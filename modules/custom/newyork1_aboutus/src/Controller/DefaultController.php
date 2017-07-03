@@ -25,4 +25,18 @@ class DefaultController extends ControllerBase {
     ];
   }
 
+  /**
+   * Getaboutleadershippage.
+   *
+   * @return array
+   *   Return Hello string.
+   */
+  public function getAboutLeadershipPage() {
+    return [
+      '#theme' => 'newyork1_aboutleadership',
+      '#title' => 'About Us',
+      '#orgName' => 'New York One',
+    ];
+  }
+
 }

@@ -15,3 +15,11 @@ newyork1_aboutus.default_controller_getAboutMePage:
     _title: 'getAboutMePage'
   requirements:
     _permission: 'access content'
+
+newyork1_aboutus.default_controller_getAboutLeadershipPage:
+  path: '/about/leadership'
+  defaults:
+    _controller: '\Drupal\newyork1_aboutus\Controller\DefaultController::getAboutLeadershipPage'
+    _title: 'getAboutLeadershipPage'
+  requirements:
+    _permission: 'access content'
