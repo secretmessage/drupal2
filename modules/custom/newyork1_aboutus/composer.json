@@ -1,0 +1,14 @@
+{
+  "name": "drupal/newyork1_aboutus",
+  "type": "drupal-module",
+  "description": "this is a module to add about me section to the website",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/sandbox/newyork1/2891897",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/secretmessage/aboutus/issues",
+    "source": "http://cgit.drupalcode.org/sandbox-newyork1-2891897"
+  },
+  "require": { }
+}

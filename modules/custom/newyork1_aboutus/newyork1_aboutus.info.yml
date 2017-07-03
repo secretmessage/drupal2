@@ -1,0 +1,5 @@
+name: newyork1_aboutus
+type: module
+description: this is a module to add about me section to the website
+core: 8.x
+package: Custom

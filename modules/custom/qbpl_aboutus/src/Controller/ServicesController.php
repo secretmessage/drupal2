@@ -23,16 +23,16 @@ class ServicesController extends ControllerBase {
     ];
   }
   /**
-   * Getcirculation.
+   * Get Circulation page.
    *
-   * @return string
+   * @return array
    *   Return Hello string.
    */
   public function getCirculation() {
-    return [
-      '#type' => 'markup',
-      '#markup' => $this->t('Implement method: getCirculation')
-    ];
+        return array(
+        '#theme' => 'qbpl_aboutus',
+        '#title' => 'this is the controller for the circulation page',
+        );
   }
   /**
    * Getcomputers.
