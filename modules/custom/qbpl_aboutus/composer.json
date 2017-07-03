@@ -2,7 +2,9 @@
   "name": "drupal/qbpl_aboutus",
   "type": "drupal-module",
   "description": "This module will house the about us module",
-  "keywords": ["Drupal"],
+  "keywords": [
+    "Drupal"
+  ],
   "license": "GPL-2.0+",
   "homepage": "https://www.drupal.org/project/qbpl_aboutus",
   "minimum-stability": "dev",
@@ -10,5 +12,5 @@
     "issues": "http://drupal.org/project/issues/qbpl_aboutus",
     "source": "http://cgit.drupalcode.org/qbpl_aboutus"
   },
-  "require": { }
+  "require": {}
 }

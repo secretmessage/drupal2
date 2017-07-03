@@ -8,15 +8,16 @@ use Drupal\simpletest\WebTestBase;
  * Provides automated tests for the qbpl_aboutus module.
  */
 class ServicesControllerTest extends WebTestBase {
+
   /**
    * {@inheritdoc}
    */
   public static function getInfo() {
-    return array(
+    return [
       'name' => "qbpl_aboutus ServicesController's controller functionality",
       'description' => 'Test Unit for module qbpl_aboutus and controller ServicesController.',
       'group' => 'Other',
-    );
+    ];
   }
 
   /**

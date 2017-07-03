@@ -10,6 +10,7 @@ use Drupal\Core\Controller\ControllerBase;
  * @package Drupal\qbpl_aboutus\Controller
  */
 class ServicesController extends ControllerBase {
+
   /**
    * Getindex.
    *
@@ -19,9 +20,10 @@ class ServicesController extends ControllerBase {
   public function getIndex() {
     return [
       '#type' => 'markup',
-      '#markup' => $this->t('Implement method: getIndex')
+      '#markup' => $this->t('Implement method: getIndex'),
     ];
   }
+
   /**
    * Get Circulation page.
    *
@@ -29,11 +31,12 @@ class ServicesController extends ControllerBase {
    *   Return Hello string.
    */
   public function getCirculation() {
-        return array(
-        '#theme' => 'qbpl_aboutus',
-        '#title' => 'this is the controller for the circulation page',
-        );
+    return [
+      '#theme' => 'qbpl_aboutus',
+      '#title' => 'this is the controller for the circulation page',
+    ];
   }
+
   /**
    * Getcomputers.
    *
@@ -43,9 +46,10 @@ class ServicesController extends ControllerBase {
   public function getComputers() {
     return [
       '#type' => 'markup',
-      '#markup' => $this->t('Implement method: getComputers')
+      '#markup' => $this->t('Implement method: getComputers'),
     ];
   }
+
   /**
    * Gettablethotspot.
    *
@@ -55,9 +59,10 @@ class ServicesController extends ControllerBase {
   public function getTabletHotspot() {
     return [
       '#type' => 'markup',
-      '#markup' => $this->t('Implement method: getTabletHotspot')
+      '#markup' => $this->t('Implement method: getTabletHotspot'),
     ];
   }
+
   /**
    * Getforeignpartnership.
    *
@@ -67,9 +72,10 @@ class ServicesController extends ControllerBase {
   public function getForeignPartnership() {
     return [
       '#type' => 'markup',
-      '#markup' => $this->t('Implement method: getForeignPartnership')
+      '#markup' => $this->t('Implement method: getForeignPartnership'),
     ];
   }
+
   /**
    * Getselfpublishing.
    *
@@ -79,7 +85,7 @@ class ServicesController extends ControllerBase {
   public function getSelfPublishing() {
     return [
       '#type' => 'markup',
-      '#markup' => $this->t('Implement method: getSelfPublishing')
+      '#markup' => $this->t('Implement method: getSelfPublishing'),
     ];
   }
 

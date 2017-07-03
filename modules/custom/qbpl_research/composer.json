@@ -2,7 +2,9 @@
   "name": "drupal/qbpl_research",
   "type": "drupal-module",
   "description": "this module shall house everything related to {{baseurl}}/research",
-  "keywords": ["Drupal"],
+  "keywords": [
+    "Drupal"
+  ],
   "license": "GPL-2.0+",
   "homepage": "https://www.drupal.org/project/qbpl_research",
   "minimum-stability": "dev",
@@ -10,5 +12,5 @@
     "issues": "http://drupal.org/project/issues/qbpl_research",
     "source": "http://cgit.drupalcode.org/qbpl_research"
   },
-  "require": { }
+  "require": {}
 }

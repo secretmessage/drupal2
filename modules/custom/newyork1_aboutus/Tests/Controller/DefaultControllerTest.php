@@ -8,15 +8,16 @@ use Drupal\simpletest\WebTestBase;
  * Provides automated tests for the newyork1_aboutus module.
  */
 class DefaultControllerTest extends WebTestBase {
+
   /**
    * {@inheritdoc}
    */
   public static function getInfo() {
-    return array(
+    return [
       'name' => "newyork1_aboutus DefaultController's controller functionality",
       'description' => 'Test Unit for module newyork1_aboutus and controller DefaultController.',
       'group' => 'Other',
-    );
+    ];
   }
 
   /**

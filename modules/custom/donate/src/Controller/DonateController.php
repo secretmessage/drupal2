@@ -12,10 +12,10 @@ class DonateController extends ControllerBase {
    * @return array
    */
   public function content() {
-    return array(
+    return [
       '#type' => 'markup',
       '#markup' => 'Please <a href="https://www.eff.org/helpout">donate</a> in whatever way you can. Thank you!</a>',
-    );
+    ];
   }
 
 }

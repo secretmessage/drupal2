@@ -19,9 +19,9 @@ class DonateBlock extends BlockBase {
    * {@inheritdoc}
    */
   public function build() {
-    return array(
+    return [
       '#markup' => '<a href="/">Donate</a>, world!',
-    );
+    ];
   }
 
 }

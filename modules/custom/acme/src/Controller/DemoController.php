@@ -4,21 +4,20 @@ namespace Drupal\acme\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\DependencyInjection\ContainerInjectionInterface;
-use Symfony\Component\DependencyInjection\ContainerInterface;
-
 use Drupal\Core\Template\TwigEnvironment;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * DemoController Controller
  */
 class DemoController extends ControllerBase implements ContainerInjectionInterface {
 
- /**
-  * @var TwigEnvironment
-  */
+  /**
+   * @var TwigEnvironment
+   */
   protected $twig;
 
- /**
+  /**
    * Constructor
    *
    * @param TwigEnvironment $twig
@@ -27,7 +26,7 @@ class DemoController extends ControllerBase implements ContainerInjectionInterfa
     $this->twig = $twig;
   }
 
- /**
+  /**
    * {@inheritdoc}
    */
   public static function create(ContainerInterface $container) {
@@ -42,7 +41,7 @@ class DemoController extends ControllerBase implements ContainerInjectionInterfa
   public function helloAction($name) {
     $twigFilePath = drupal_get_path('module', 'acme') . '/templates/hello.html.twig';
     $template = $this->twig->loadTemplate($twigFilePath);
-    return $template->render(array('name' => $name));
+    return $template->render(['name' => $name]);
   }
 
 }

@@ -10,6 +10,7 @@ use Drupal\Core\Controller\ControllerBase;
  * @package Drupal\qbpl_research\Controller
  */
 class DefaultController extends ControllerBase {
+
   /**
    * Hello.
    *
@@ -22,6 +23,7 @@ class DefaultController extends ControllerBase {
       '#markup' => $this->t('Implement method: hello with parameter(s): $name'),
     ];
   }
+
   /**
    * Goodbye.
    *

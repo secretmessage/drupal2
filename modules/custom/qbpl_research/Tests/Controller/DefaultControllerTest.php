@@ -8,15 +8,16 @@ use Drupal\simpletest\WebTestBase;
  * Provides automated tests for the qbpl_research module.
  */
 class DefaultControllerTest extends WebTestBase {
+
   /**
    * {@inheritdoc}
    */
   public static function getInfo() {
-    return array(
+    return [
       'name' => "qbpl_research DefaultController's controller functionality",
       'description' => 'Test Unit for module qbpl_research and controller DefaultController.',
       'group' => 'Other',
-    );
+    ];
   }
 
   /**
