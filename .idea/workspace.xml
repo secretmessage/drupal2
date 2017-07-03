@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2502c884-7e1b-4155-98cb-9a4f783e00e8" name="Default" comment="" />
+    <list default="true" id="2502c884-7e1b-4155-98cb-9a4f783e00e8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/custom/newyork1_aboutus/templates/newyork1-aboutleadership.html.twig" afterPath="$PROJECT_DIR$/modules/custom/newyork1_aboutus/templates/newyork1-aboutleadership.html.twig" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newyork1_aboutus.module" pinned="false" current-in-tab="true">
+      <file leaf-file-name="newyork1_aboutus.module" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/custom/newyork1_aboutus/newyork1_aboutus.module">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -84,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newyork1-aboutleadership.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="newyork1-aboutleadership.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/custom/newyork1_aboutus/templates/newyork1-aboutleadership.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -138,8 +140,8 @@
         <option value="$PROJECT_DIR$/modules/custom/qbpl_volunteer/templates/qbpl-volunteer.html.twig" />
         <option value="$PROJECT_DIR$/modules/custom/newyork1_aboutus/newyork1_aboutus.module" />
         <option value="$PROJECT_DIR$/modules/custom/newyork1_aboutus/src/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/modules/custom/newyork1_aboutus/templates/newyork1-aboutleadership.html.twig" />
         <option value="$PROJECT_DIR$/modules/custom/newyork1_aboutus/newyork1_aboutus.routing.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/newyork1_aboutus/templates/newyork1-aboutleadership.html.twig" />
       </list>
     </option>
   </component>
@@ -262,12 +264,12 @@
       <workItem from="1498765462660" duration="4651000" />
       <workItem from="1499105036155" duration="421000" />
       <workItem from="1499106952857" duration="1714000" />
-      <workItem from="1499109955064" duration="446000" />
+      <workItem from="1499109955064" duration="1075000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13338000" />
+    <option name="totallyTimeSpent" value="13967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -701,14 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/newyork1_aboutus/templates/newyork1-aboutleadership.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/qbpl_volunteer/templates/qbpl-volunteer.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -729,6 +723,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/newyork1_aboutus/templates/newyork1-aboutleadership.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
