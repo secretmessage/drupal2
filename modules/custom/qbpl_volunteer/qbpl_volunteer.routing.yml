@@ -5,3 +5,19 @@ qbpl_volunteer.content:
     _title: 'Volunteer today'
   requirements:
     _permission: 'access content'
+
+qbpl_volunteer.welcome:
+  path: '/volunteer/new'
+  defaults:
+    _controller: '\Drupal\qbpl_volunteer\Controller\VolunteerController::welcome'
+    _title: 'Volunteer today'
+  requirements:
+    _permission: 'access content'
+
+qbpl_volunteer.welcomeBack:
+  path: '/volunteer/old'
+  defaults:
+    _controller: '\Drupal\qbpl_volunteer\Controller\VolunteerController::welcomeBack'
+    _title: 'Volunteer today'
+  requirements:
+    _permission: 'access content'
