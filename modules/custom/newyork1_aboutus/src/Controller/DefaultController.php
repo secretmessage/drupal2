@@ -36,6 +36,7 @@ class DefaultController extends ControllerBase {
       '#theme' => 'newyork1_aboutleadership',
       '#title' => 'About Us',
       '#orgName' => 'New York One',
+      '#currentTime' => date('Y-m-d'),
     ];
   }
 

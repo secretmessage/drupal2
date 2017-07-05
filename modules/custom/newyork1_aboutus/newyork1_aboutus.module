@@ -20,6 +20,7 @@ function newyork1_aboutus_theme($existing, $type, $theme, $path) {
       'variables' => [
         'apple' => NULL,
         'orgName' => NULL,
+        'currentTime' => NULL,
       ],
     ],
   ];
